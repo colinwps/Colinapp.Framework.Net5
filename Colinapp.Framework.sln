@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colinapp.Util", "Colinapp.Util\Colinapp.Util.csproj", "{BB753BA6-9997-49AB-A953-014FAB53C931}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Framework 基础模块", "01 Framework 基础模块", "{CC614321-CD32-4CB3-A1DF-00FC21500DCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Util 实用类模块", "01 Util 实用类模块", "{900B16AA-771F-4BA1-93FB-0CD532B468CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 DataAccess 数据库访问模块", "02 DataAccess 数据库访问模块", "{77757487-6E72-4FD3-8C62-EAC1AF2E4E7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 ApplicationModule 应用模块", "03 ApplicationModule 应用模块", "{522CA53B-C084-4404-8BD8-9B4448DD1BEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 WebApi Api接口", "04 WebApi Api接口", "{5098C995-244C-4668-BCCB-C80C8B7BFFF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 WebApplication Web应用界面", "05 WebApplication Web应用界面", "{6187DFAF-1D7D-4BF3-9ECC-01A60DA2A377}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 NunitTest 单元测试", "06 NunitTest 单元测试", "{E5319EBB-E960-45C1-B17F-18BF91D750AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 Console 控制台程序", "07 Console 控制台程序", "{D72A37FC-51DA-460D-9621-E6E59BCEABE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 Doc 文档", "08 Doc 文档", "{DFD2BE52-2F7F-407E-9CAD-3BF524463855}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB753BA6-9997-49AB-A953-014FAB53C931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB753BA6-9997-49AB-A953-014FAB53C931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB753BA6-9997-49AB-A953-014FAB53C931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB753BA6-9997-49AB-A953-014FAB53C931}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB753BA6-9997-49AB-A953-014FAB53C931} = {900B16AA-771F-4BA1-93FB-0CD532B468CC}
+		{900B16AA-771F-4BA1-93FB-0CD532B468CC} = {CC614321-CD32-4CB3-A1DF-00FC21500DCA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70FF1677-418C-4DB9-BA55-78833F38DED1}
+	EndGlobalSection
+EndGlobal
