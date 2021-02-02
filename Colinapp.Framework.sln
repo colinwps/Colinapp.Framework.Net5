@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colinapp.Util", "Colinapp.Util\Colinapp.Util.csproj", "{BB753BA6-9997-49AB-A953-014FAB53C931}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colinapp.Util", "Colinapp.Util\Colinapp.Util.csproj", "{BB753BA6-9997-49AB-A953-014FAB53C931}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Framework 基础模块", "01 Framework 基础模块", "{CC614321-CD32-4CB3-A1DF-00FC21500DCA}"
 EndProject
@@ -27,9 +27,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Data 基础数据", "01 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 DataEF 数据库访问框架", "02 DataEF 数据库访问框架", "{9DC78E2D-E2E3-4B96-82CA-FB21455AF874}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colinapp.Data", "Colinapp.Data\Colinapp.Data.csproj", "{B4C69953-C9C4-46AF-9838-9692851B1545}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colinapp.Data", "Colinapp.Data\Colinapp.Data.csproj", "{B4C69953-C9C4-46AF-9838-9692851B1545}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colinapp.Data.EF", "Colinapp.Data.EF\Colinapp.Data.EF.csproj", "{4E5CA297-9A8A-4AA3-AD72-982CC6C58975}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colinapp.Data.EF", "Colinapp.Data.EF\Colinapp.Data.EF.csproj", "{4E5CA297-9A8A-4AA3-AD72-982CC6C58975}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Log 日志模块", "02 Log 日志模块", "{6E77440F-5E23-498F-8E4B-5275D02407B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colinapp.Loger", "Colinapp.Loger\Colinapp.Loger.csproj", "{A59C1485-5ACD-4EC5-9F37-777E20E084C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{4E5CA297-9A8A-4AA3-AD72-982CC6C58975}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E5CA297-9A8A-4AA3-AD72-982CC6C58975}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E5CA297-9A8A-4AA3-AD72-982CC6C58975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59C1485-5ACD-4EC5-9F37-777E20E084C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59C1485-5ACD-4EC5-9F37-777E20E084C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59C1485-5ACD-4EC5-9F37-777E20E084C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59C1485-5ACD-4EC5-9F37-777E20E084C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +68,8 @@ Global
 		{9DC78E2D-E2E3-4B96-82CA-FB21455AF874} = {77757487-6E72-4FD3-8C62-EAC1AF2E4E7C}
 		{B4C69953-C9C4-46AF-9838-9692851B1545} = {DF9C9697-964D-4ED2-883D-3D339A557458}
 		{4E5CA297-9A8A-4AA3-AD72-982CC6C58975} = {9DC78E2D-E2E3-4B96-82CA-FB21455AF874}
+		{6E77440F-5E23-498F-8E4B-5275D02407B5} = {CC614321-CD32-4CB3-A1DF-00FC21500DCA}
+		{A59C1485-5ACD-4EC5-9F37-777E20E084C7} = {6E77440F-5E23-498F-8E4B-5275D02407B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70FF1677-418C-4DB9-BA55-78833F38DED1}
